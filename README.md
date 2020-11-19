@@ -1,2 +1,2 @@
 # XQuizIt
-Graded Quizzes for Interactive Leearning
+Graded Quizzes for Interactive Learning

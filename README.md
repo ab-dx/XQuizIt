@@ -1,5 +1,7 @@
 # XQuizIT!
 
+![logo](https://cdn.discordapp.com/attachments/777845032329019414/778818491972714506/unknown.png)
+
 A Quizzing platform aimed to gamify learning and make the process more fun for students
 
 ## Philosophy
@@ -8,7 +10,7 @@ A Quizzing platform aimed to gamify learning and make the process more fun for s
 * Weaker students receive easy questions, if they perform well, they level up and move up the chain and start to receive harder questions. This way, we incentivize students to learn and improve! Students improve in performance and the number of teachers needed to manage the quizzes also decreases, thus saving time and money.
 
 ## Sign In
-You can sign up with you Google account (done via OAuth 2.0)
+You can sign up with your existing Google account (done via OAuth 2.0)
 For new accounts you can start by choosing either a teacher or student role.
 
 ## Usage

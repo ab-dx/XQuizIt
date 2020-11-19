@@ -18,7 +18,7 @@ For new accounts you can start by choosing either a teacher or student role.
 * Teachers can start making a quiz and assigning different difficulty levels to create graded MCQ type papers.
 * Our algorithm automatically sorts this quiz into 3 sections: Easy, medium and hard, so that students of the right caliber receive personalized quizzes.
 * Students can view their profile which shows their total score average over the past few quizzes attended and can also view their level aimed at inspiring them 
-to improve to next level.
+to improve to next the level.
 * Students can enter the quiz code given to them by their teacher and receive a personalized quiz catered to their level of intelligence.
 * Once done, students can submit the quiz and receive feedback such as their score for the current test, how much they've improved or dropped from their previous performance and key topics to focus on to perform better next time.
 

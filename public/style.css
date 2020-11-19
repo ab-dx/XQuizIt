@@ -1,0 +1,306 @@
+* {
+  font-family: Alata;
+  text-align: center;
+  outline: none;
+}
+h1 {
+  background-color: #FFCC80;
+  color: #FFFDE7;
+  border-radius: 5px;
+  font-size: 45px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.08);
+}
+body {
+  background-color: #FFFDE7;
+}
+button{
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+ 
+  color: #FFB74D;
+  background-color: #FFFDE7;
+}
+#signOut{
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+  color: #777777;
+  background-color: #FFFFFF;
+  transition: 0.3s;
+  width: 110px;
+}
+.g-signin2{
+  text-align: center;
+  width: 110px;
+  transition: 0.3s;
+}
+
+#signOut:hover{
+    box-shadow: 2px 2px 2px 2px rgba(129, 212, 250, 0.2), 2px 2px 2px 2px rgba(129, 212, 250, 0.2);
+}
+#role{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.roleBtn{
+  text-align: center;
+  width: 60%;
+  border-radius: 2px;
+  background-color: #FFCC80;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.roleBtn:hover{
+  width: 80%;
+}
+#msg{
+  text-align: center;
+  color: #FFCC80;
+  font-size: 30px;
+}
+#usrIcon{
+  left: 0px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+}
+#roleInfo{
+  text-align: center;
+  font-size: 22px;
+}
+#usrName, #usrRole, #avgScore{
+  font-size: 40px;
+  color: #FFCC80;
+}
+#userInfo{
+    margin-left: 1%;
+    border-radius: 5 px;
+    margin-right: 65%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+}
+#make-quiz{
+  height: 460px;
+  margin-right: 2%;
+  margin-top: -12%;
+  position: fixed;
+  width: 36%;
+    border-radius: 5px;
+    margin-left: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+   font-size: 40px;
+  color: #FFCC80;
+  overflow-y: scroll;
+}
+#imgDiv{
+  margin-top: 1.5%;
+  margin-left: 3%;
+  margin-right: 90%;
+  position: fixed;
+}
+#easyBtn{
+  background-color: #AED581;
+  color: #FAFAFA;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#mediumBtn{
+  background-color: #FFD54F;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#hardBtn{
+  background-color: #FF7043;
+  color: #FAFAFA;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#addBtn{
+  background-color: #81D4FA;
+  color: #FAFAFA;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#submitBtn{
+  background-color: #81D4FA;
+  color: #FAFAFA;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#submitAnswersBtn{
+   background-color: #81D4FA;
+  color: #FAFAFA;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#easyBtn:hover, #mediumBtn:hover, #hardBtn:hover, #addBtn:hover, #submitBtn:hover, #takeQuiz:hover, #submitAnswersBtn:hover{
+  opacity: 1;
+}
+#questionInput{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 3px;
+  resize: none;
+  background-color: #effdfd;
+  font-size: 30px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 4px 0 rgba(0, 0, 0, 0.04);
+  color: #777777;
+}
+.textLabel{
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.textLabel2{
+  color: #BBDEFB;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.option{
+  border: none;
+  font-size: 22px;
+  background-color: #effdfd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 4px 0 rgba(0, 0, 0, 0.04);
+  color: #777777;
+}
+
+#previewQuiz{
+  height: 260px;
+  margin-left: 1%;
+  margin-top: 3%;
+  position: fixed;
+  width: 40%;
+    border-radius: 5px;
+    margin-right: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+   font-size: 40px;
+  color: #FFCC80;
+  overflow-y: scroll;
+}
+
+#studentArea{
+  height: 460px;
+  margin-right: 2%;
+  margin-top: -24%;
+  position: fixed;
+  width: 36%;
+    border-radius: 5px;
+    margin-left: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+   font-size: 40px;
+  color: #FFCC80;
+  overflow-y: scroll;
+}
+#studentQuizArea{
+  height: 460px;
+  margin-right: 2%;
+  margin-top: -24%;
+  position: fixed;
+  width: 36%;
+    border-radius: 5px;
+    margin-left: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+   font-size: 40px;
+   color: #FFCC80;
+  overflow-y: scroll;
+  text-align: left;
+}
+#enterQuizCode{
+  height: 80px;
+  width:300px;
+  border-radius: 3px;
+  font-size: 25px;
+  transition: 0.3s;
+  border:5px solid #FFCC80;
+  color:#777777;
+}
+#enterQuizCode:hover{
+  width: 350px;
+}
+#takeQuiz{
+ background-color: #81D4FA;
+  color: #FAFAFA;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: 0.7;
+  transition: 0.3s; 
+}
+.textLabel3{
+  color: #BBDEFB;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.questionLabel{
+  color: #777777;
+  font-size: 24px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.optionLabel{
+  color: #81D4FA;
+  font-size: 24px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+#usrIcon2{
+  left: 0px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.09);
+}
+#imgDiv2{
+  margin-top: 0.53%;
+  margin-left: 1%;
+  margin-right: 90%;
+  position: fixed;
+}
+/* 
+
+UNIVERSAL COMMENTS
+
+INTERESTING PURPLE LOL
+#e0b5ff
+THE BLUE HAS DISAPPEARADO
+
+*/

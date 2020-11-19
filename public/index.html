@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+    </script>
+    <script src="script.js"></script>
+    <!-- Enter Google CLIENT ID BELOW-->
+    <meta name="google-signin-client_id" content="993879542921-qseblsifu2jil8kkoetbjhsqv5hiavf8.apps.googleusercontent.com">
+    <link href="https://fonts.googleapis.com/css?family=Alata" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fb-favicon.png?v=160576007740"/>
+    <title>Login Page | XQuizIt!</title>
+  </head>
+  <body>
+     <div id="imgDiv2">
+      <img id="usrIcon2" alt="Icon" width="75" height="50" src="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fxquizit.png?v=1605759321551"/>
+    </div>
+    <h1>
+      Login to XQuizIt!
+    </h1>
+    <br/><br><br>
+    <div id="role">
+      <div id="msg">Sign in with Google<br><br>
+      <img src="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fgoogle.png?v=1605589102121" width="100" height="100"/>
+      </div>
+    <a href="home.html"> 
+       <button id="studentBtn"  style="display:none" onclick="assignRoleStudent()" class="roleBtn">
+       Student
+       </button>
+       </a> 
+      <br><br>
+     <a href="home.html"> 
+        <button id="teacherBtn" style="display:none" onclick="assignRoleTeacher()" class="roleBtn">
+        Teacher
+        </button>
+      </a> 
+    </div>
+    <button id="sign-in-btn" class="g-signin2" data-onsuccess="onSignIn"></button>
+      <button href="#" id="signOutBtn" style="display: none" onclick="signOut()"><div id="signOut"><img src="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fgoogle.png?v=1605589102121" width="16" height="16"/> &nbsp; &nbsp; Sign Out</div></button>
+  </body>
+</html>

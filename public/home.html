@@ -1,0 +1,60 @@
+
+<html>
+  <head>
+    <title>Home | XQuizIt!</title>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alata" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fb-favicon.png?v=1605760077408"/>
+
+    
+  </head>
+  <div id="imgDiv2">
+      <img id="usrIcon2" alt="Icon" width="75" height="50" src="https://cdn.glitch.com/90ed31db-6c4a-4ecf-969d-bf266036a233%2Fxquizit.png?v=1605759321551"/>
+    </div>
+  <body onload="loadHome()">  
+    <h1 id="greet">XQuizIt! | Home
+    </h1>    
+    <div id="imgDiv">
+      <img id="usrIcon" alt="User avatar" width="50" height="50"/>
+    </div>
+    <div id="userInfo">
+      <!--<img id="usrIcon" alt="User avatar" width="80" height="80"/>-->
+      <div id="usrRole"></div><hr>
+      <div id="usrName"></div><hr>
+      <div style="display: none;" id="avgScore"></div>    
+      <!--<div id="usrEmail"></div>-->
+     
+      <!--<div id="roleInfo"></div>-->
+    </div>
+    <div style="display: none" id="make-quiz"> Make A Quiz: <hr>
+      Add a question
+      <br>
+      <textarea id="questionInput"  rows="4" columns="40" > </textarea>
+      <br><div class="textLabel">Difficulty:</div><button id="easyBtn" onclick="setDifficulty('Easy',0)" >Easy</button> <button id="mediumBtn" onclick="setDifficulty('Medium',0)">Medium</button><button id="hardBtn" onclick="setDifficulty('Hard',0)">Hard</button><br>
+      <br><div class="textLabel">Options:<br>
+      <br> A: &nbsp;&nbsp;<input class="option" id="oA" />&nbsp;&nbsp;<input id="checkA" type="radio" name="radio" onclick="setAnswer('A')"/> <br>
+      <br> B: &nbsp;&nbsp;<input class="option" id="oB" />&nbsp;&nbsp;<input id="checkB" type="radio" name="radio" onclick="setAnswer('B')"/> <br>
+      <br> C: &nbsp;&nbsp;<input class="option" id="oC" />&nbsp;&nbsp;<input id="checkC" type="radio" name="radio" onclick="setAnswer('C')"/> <br>
+      <br> D: &nbsp;&nbsp;<input class="option" id="oD" />&nbsp;&nbsp;<input id="checkD" type="radio" name="radio" onclick="setAnswer('D')"/> <br>
+      <br> <input class="option" id="categoryInfo" placeholder="Question Category"/>
+      </div><br>
+      <button id="addBtn" onclick="addQuestion()">Add question &nbsp; +&nbsp;</button><br><br>
+      <button id="submitBtn" onclick="submitQuestions()">Submit All questions</button>
+    </div>
+    <div style="display: none" id="previewQuiz">Quiz Preview <br><br>
+    <div class="textLabel2" id="previewArea"></div>
+    </div>
+    <div id="studentArea" style="display: none;">
+      Join A Quiz<br><br>
+      <input id="enterQuizCode" placeholder="Enter Quiz Code"/><br><br><button id="takeQuiz" onclick="takeQuiz()">
+      Take the Quiz!
+      </button>
+    </div>
+    <div id="studentQuizArea" style="display: none">
+        Quiz <br>        
+      </div>
+    
+     
+  </body>
+</html> 

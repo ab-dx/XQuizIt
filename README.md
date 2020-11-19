@@ -2,7 +2,8 @@
 
 ![logo](https://cdn.discordapp.com/attachments/777845032329019414/778818491972714506/unknown.png)
 
-A Quizzing platform aimed at gamifying learning and making the process more fun for students
+* A Quizzing platform aimed at gamifying learning and making the process more fun for students
+* [Live App](http://hackathon-cc.glitch.me)
 
 ## Philosophy
 * The education system so far is based on standardized tests for students of all calibers, however, we see that students of different levels of intelligence should receive questions appropriate for their level. For example, a student who is academically weak should receive eazy questions, whereas brilliant students should recieve difficult questions.

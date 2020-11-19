@@ -2,10 +2,10 @@
 
 ![logo](https://cdn.discordapp.com/attachments/777845032329019414/778818491972714506/unknown.png)
 
-A Quizzing platform aimed to gamify learning and make the process more fun for students
+A Quizzing platform aimed at gamifying learning and making the process more fun for students
 
 ## Philosophy
-* The education system so far is based on standardized tests for students of all calibers, however, we see that students of different levels of intelligence should receive questions appropriate for their level. For example, a student who is academically weak should receive eazy questions, whereas brilliant students should recieve difficulty questions.
+* The education system so far is based on standardized tests for students of all calibers, however, we see that students of different levels of intelligence should receive questions appropriate for their level. For example, a student who is academically weak should receive eazy questions, whereas brilliant students should recieve difficult questions.
 * XQuizIt aims to gamify learning, where we inspire students to go from one level to another. We assign graded quizzes so that students receive questions personalized to their performance.
 * Weaker students receive easy questions, if they perform well, they level up and move up the chain and start to receive harder questions. This way, we incentivize students to learn and improve! Students improve in performance and the number of teachers needed to manage the quizzes also decreases, thus saving time and money.
 

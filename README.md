@@ -20,3 +20,6 @@ For new accounts you can start by choosing either a teacher or student role.
 to improve to next level.
 * Students can enter the quiz code given to them by their teacher and receive a personalized quiz catered to their level of intelligence.
 * Once done, students can submit the quiz and receive feedback such as their score for the current test, how much they've improved or dropped from their previous performance and key topics to focus on to perform better next time.
+
+## Project Team
+* Made by CodeCrusaders: [ParallaxWave](https://github.com/ParallaxWave), [BrainNotFoundException](https://github.com/BrainNotFoundException), [Omletteinme](https://github.com/Omletteinme)
